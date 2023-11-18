@@ -34,23 +34,27 @@
     <center>
     <fieldset>
         <legend>Get in touch with me!</legend><br><br>
-        <nav id="1">
-        <label for="fname" style="margin-left:30px;">Full Name:</label>
-        <input type="text" id="fname" name="FullName" placeholder="Your name">
-        </nav><br>
-        <nav id="1">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="Email" placeholder="Your email">
-        </nav><br>
-        <nav id="1">
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="Phone" placeholder="Your phone number">
-        </nav><br>
-        <nav id="1">
-        <label for="message" style="margin-left:15px;">Message:</label>
-        <textarea type="text" id="message" name="Message" placeholder="Your message"></textarea>
-        </nav><br>
-        <button type="button" onclick="alert('Submitted')" style="width: 70px; height: 30px; border-radius: 10px; background-color:darksalmon;">Submit</button>
+        <form>
+            <table>
+              <tr>
+                <td><label for="fname" style="font-size: 18px;">Full Name:</label></td>
+                <td><input type="text" id="fname" name="FullName" placeholder="Your name" style="width: 250px; height: 30px; border-radius: 5px; background-color: transparent;"></td>
+              </tr>
+              <tr>
+                <td><label for="email" style="font-size: 18px;">Email:</label></td>
+                <td><input type="email" id="email" name="Email" placeholder="Your email" style="width: 250px; height: 30px; border-radius: 5px; background-color: transparent;"></td>
+              </tr>
+              <tr>
+                <td><label for="phone" style="font-size: 18px;">Phone:</label></td>
+                <td><input type="tel" id="phone" name="Phone" placeholder="Your phone number" style="width: 250px; height: 30px; border-radius: 5px; background-color: transparent;"></td>
+              </tr>
+              <tr>
+                <td><label for="message" style="font-size: 18px;">Message:</label></td>
+                <td><textarea type="text" id="message" name="Message" placeholder="Your message" style="width: 250px; height: 70px; border-radius: 5px; background-color: transparent;"></textarea></td>
+              </tr>
+            </table>
+         <button type="button" onclick="alert('Submitted')" style="width: 70px; height: 30px; border-radius: 10px; background-color:darksalmon;">Submit</button>
+        </form>
     </fieldset>
     </center>
 </body>
