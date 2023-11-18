@@ -2,7 +2,7 @@
 A clean, simple and responsive portfolio created using html
 
 # Website Preview
-https://github.com/Meenachie/Portfolio/assets/140750116/38c8549b-584a-4b3a-b82f-a6ddfca565aa
+https://github.com/Meenachie/Portfolio/assets/140750116/a2dd1771-5374-412f-b483-4d8f470b89ad
 
 # Sections📚
 <ul>
